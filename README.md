@@ -1,13 +1,13 @@
-SpreeOutOfStock
+Spree Out of Stock Report
 ===============
 
-Introduction goes here.
+This is a Spree extension that adds a Spree Report for variants that went out of stock in a defined date range.
 
 ## Installation
 
 1. Add this extension to your Gemfile with this line:
   ```ruby
-  gem 'spree_out_of_stock', github: '[your-github-handle]/spree_out_of_stock'
+  gem 'spree_out_of_stock', github: 'wrfarina/spree_out_of_stock'
   ```
 
 2. Install the gem using Bundler:
@@ -43,8 +43,6 @@ require 'spree_out_of_stock/factories'
 
 ## Contributing
 
-If you'd like to contribute, please take a look at the
-[instructions](CONTRIBUTING.md) for installing dependencies and crafting a good
-pull request.
+If you'd like to contribute, please feel free to create a pull request.
 
-Copyright (c) 2017 [name of extension creator], released under the New BSD License
+Copyright (c) 2017 Walter Fariña, released under the New BSD License
